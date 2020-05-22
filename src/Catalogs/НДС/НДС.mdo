@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="281be54c-42c8-4fac-94d0-e316980edf7b">
+  <producedTypes>
+    <objectType typeId="b9cb244c-8118-4459-b4a8-d61676c6f8f7" valueTypeId="c74be5e3-0d18-4fa2-b53d-e913fa48aa3b"/>
+    <refType typeId="873a06fe-e8ca-4189-8bae-92cb3e84096a" valueTypeId="9e6d2a22-5d34-4beb-8720-0464f4ccc0a4"/>
+    <selectionType typeId="7ab3c95d-47c6-43ed-be2c-06d324ba9f54" valueTypeId="059e7a42-b710-4ef3-81dc-d64e4edc8ed8"/>
+    <listType typeId="fe4d661c-ffe2-4d94-b99a-197c0961d349" valueTypeId="98bcc3a7-353a-4557-ba33-00971dfebc8e"/>
+    <managerType typeId="5fdfc206-24b1-4941-8c7d-655838958686" valueTypeId="a4e42f61-a306-4938-b46e-7204be45581f"/>
+  </producedTypes>
+  <name>НДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодирование</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <descriptionLength>15</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="0c3ce967-a39a-4bc5-b3c1-b7ab7e6dc3a4">
+      <name>none</name>
+      <description>без НДС</description>
+      <code xsi:type="core:StringValue">
+        <value>none</value>
+      </code>
+    </items>
+    <items id="47e53197-0eb1-4661-81f4-63fff49378ec">
+      <name>vat0</name>
+      <description>0%</description>
+      <code xsi:type="core:StringValue">
+        <value>vat0</value>
+      </code>
+    </items>
+    <items id="a8ca036b-3272-4895-82c5-f0be05711238">
+      <name>vat10</name>
+      <description>10%</description>
+      <code xsi:type="core:StringValue">
+        <value>vat10</value>
+      </code>
+    </items>
+    <items id="78310223-6d3d-4bd5-985c-247c05880ced">
+      <name>vat110</name>
+      <description>10% / 110%</description>
+      <code xsi:type="core:StringValue">
+        <value>vat110</value>
+      </code>
+    </items>
+    <items id="ad6e39a2-9b3c-4e5a-817d-686ec55ca337">
+      <name>vat118</name>
+      <description>18% / 118%</description>
+      <code xsi:type="core:StringValue">
+        <value>vat118</value>
+      </code>
+    </items>
+    <items id="2430531f-2060-4d5a-8151-9adfd0a5eeee">
+      <name>vat18</name>
+      <description>18%</description>
+      <code xsi:type="core:StringValue">
+        <value>vat18</value>
+      </code>
+    </items>
+    <items id="821c5e26-5845-49de-9d67-3399bc5d83d0">
+      <name>vat20</name>
+      <description>20%</description>
+      <code xsi:type="core:StringValue">
+        <value>vat20</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НДС.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f574dca9-af47-4028-bf45-4588f5ac6f56">
+    <name>ПроцентНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>% НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33ad5331-6641-4722-a365-d90e4871eb05">
+    <name>Рассчитывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aa57312-7f2d-4b0c-bc4e-f8452faa5c4a">
+    <name>Делитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делитель</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e5f00023-6e72-48d7-9620-6b415e12c437">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

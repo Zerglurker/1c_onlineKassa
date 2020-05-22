@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78ad6142-5e55-4b4a-953f-35df2df1e04f">
+  <name>Служебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НомераКвитанций</content>
+  <content>InformationRegister.ОшибкиНаККТ</content>
+  <content>Enum.ТипОперацииЧека</content>
+  <content>Enum.СтатусПечатиЧека</content>
+  <content>Constant.IDтокен</content>
+  <content>Constant.IDмагазина</content>
+  <content>Constant.НастройкиИмпортаПП</content>
+  <content>Constant.НастройкиИмпортаДел</content>
+  <content>CommonModule.ПроцедурыОбменаXDTO</content>
+  <content>CommonModule.ПроцедурыОбменаXHTML</content>
+  <content>Role.Пользователь</content>
+  <content>Constant.логин</content>
+  <content>Constant.пароль</content>
+  <content>Catalog.НДС</content>
+  <content>InformationRegister.ЧекиВОбработке</content>
+  <content>Constant.ПоляФайлаCSV</content>
+  <content>DataProcessor.ЗагрузкаДел</content>
+  <content>DataProcessor.ЗагрузкаПлатежныхПоручений</content>
+  <content>DataProcessor.СопоставлениеСчетовИОплат</content>
+  <content>DataProcessor.ПечатьЧековOnline</content>
+  <content>DataProcessor.ПанельАдминистрированияCasbox</content>
+  <content>Document.КассовыйЧек</content>
+  <content>Document.Договор</content>
+  <content>Document.ПлатежноеПоручение</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Constant.пустойEmail</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыOnlineCashbox</content>
+  <content>Enum.ЮрФизЛицо</content>
+  <content>Catalog.ЮрФиз</content>
+  <content>Constant.Население</content>
+  <parentSubsystem>Subsystem.onlineКасса</parentSubsystem>
+</mdclass:Subsystem>

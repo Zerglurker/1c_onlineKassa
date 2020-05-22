@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba18a87a-ec6f-4819-939a-58cc1514467b">
+  <producedTypes>
+    <objectType typeId="8e1ebe45-a41e-478f-a2f3-0f6a9464c746" valueTypeId="727484fa-d1f1-4099-ad6c-ac7f12e57562"/>
+    <managerType typeId="b7022fde-d942-4d67-b051-333eed098a22" valueTypeId="04ebcbc7-eef3-49ee-beae-cc05b8c697d7"/>
+  </producedTypes>
+  <name>ПечатьЧековOnline</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать чеков online</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьЧековOnline.Form.Форма</defaultForm>
+  <attributes uuid="c32701d9-ba52-4d3f-b04f-97cf70440143">
+    <name>Чек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КассовыйЧек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e94075d4-b5cc-4ce6-ae6c-2c7f9ac6af05">
+    <name>ФормаTest</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма test</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4dbecf0b-dd5f-4c53-abe3-133f513d8112">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

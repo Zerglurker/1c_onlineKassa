@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57618336-5153-42a9-97bf-40e41af68323">
+  <producedTypes>
+    <managerType typeId="9455ae63-b03f-4712-accf-f8703ee6ae89" valueTypeId="c1f90891-61e1-4c32-84e1-87199bb5aaad"/>
+    <valueManagerType typeId="0edc6bb2-dfd7-4ed0-99a4-391f57266d06" valueTypeId="2d8a5ce3-c352-47f6-8789-06f829ae3b89"/>
+    <valueKeyType typeId="845eef59-2861-4a27-b627-9ad51da77de2" valueTypeId="6cbc913a-9854-4d4b-a423-72d9b84201b1"/>
+  </producedTypes>
+  <name>пустойEmail</name>
+  <synonym>
+    <key>ru</key>
+    <value>emal по умолчанию</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

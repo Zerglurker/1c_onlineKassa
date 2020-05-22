@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f0a1703-5ae0-42a1-b267-477900c2d1ea">
+  <name>ОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.Договор</types>
+    <types>DocumentObject.ПлатежноеПоручение</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.OnlineCashboxСервер.ОбработкаПроведенияДокументов</handler>
+</mdclass:EventSubscription>

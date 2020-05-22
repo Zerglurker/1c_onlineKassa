@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b53e3546-4595-4e88-8eeb-e7b5b5382f50">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <content>DataProcessor.ГрупповоеИзменениеРеквизитов</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+  <content>DataProcessor.ЗагрузкаКлассификатораБанков</content>
+  <content>DataProcessor.НастройкиПользователей</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.ПанельАдминистрированияCasbox</content>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>Constant.ПоляФайлаCSV</content>
+  <parentSubsystem>Subsystem.НастройкиИСправочники</parentSubsystem>
+</mdclass:Subsystem>

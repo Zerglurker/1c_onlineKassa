@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2846cd03-c710-4ff3-a552-454599eb4736">
+  <name>onlineКасса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Online касса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделOnlineCashbox</picture>
+  </picture>
+  <content>Document.КассовыйЧек</content>
+  <content>Document.ПлатежноеПоручение</content>
+  <content>Document.Договор</content>
+  <content>Catalog.Контрагенты</content>
+  <content>DataProcessor.ЗагрузкаПлатежныхПоручений</content>
+  <content>DataProcessor.ЗагрузкаДел</content>
+  <content>DataProcessor.СопоставлениеСчетовИОплат</content>
+  <content>DataProcessor.ПечатьЧековOnline</content>
+  <content>Report.Взаиморасчеты</content>
+  <content>DataProcessor.ЗагрузкаРеестраППСбербанка</content>
+  <content>Report.КонтрольПлатежей</content>
+  <subsystems>Служебная</subsystems>
+</mdclass:Subsystem>

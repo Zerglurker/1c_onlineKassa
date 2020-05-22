@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ec7af27-451c-410a-91cb-eddf64a6cbe9">
+  <producedTypes>
+    <managerType typeId="3b1bcf57-88e9-48cd-9bb3-68b5b293e8ea" valueTypeId="e8d8f4db-8290-4387-b46f-d218a3657082"/>
+    <valueManagerType typeId="8235d948-672a-470e-9d4c-bf385a61a0fc" valueTypeId="0cfc44e9-4913-4f4d-84b6-cdf499934fd4"/>
+    <valueKeyType typeId="ecd4d9e4-6489-598c-bc0c-121823487f7c" valueTypeId="1ab331da-9030-5e58-98a6-4b0b2f2f4d39"/>
+  </producedTypes>
+  <name>ПоляФайлаCSV</name>
+  <synonym>
+    <key>ru</key>
+    <value>поля в файле экспорта Дел/Контрагентов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

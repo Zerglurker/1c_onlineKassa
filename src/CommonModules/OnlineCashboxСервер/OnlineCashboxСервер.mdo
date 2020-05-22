@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d231b3a-90cf-4157-92ed-3dbac71d6eb0">
+  <name>OnlineCashboxСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Online cashbox сервер</value>
+  </synonym>
+  <server>true</server>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

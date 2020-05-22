@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"></meta><meta name="GENERATOR" content="MSHTML 11.00.9600.19355"></meta></head><body>
+<style type="text/css">STRONG {
+	FONT-FAMILY: "Times New Roman"
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: "Arial"; VERTICAL-ALIGN: text-top; COLOR: black
+}
+TR.head {
+	FONT-SIZE: 14px; VERTICAL-ALIGN: middle; COLOR: #ffffff; BACKGROUND-COLOR: #b30a79
+}
+TR.chet {
+	BACKGROUND-COLOR: #ffc0c0
+}
+TD.head {
+	FONT-SIZE: 14px; COLOR: #ffffff; BACKGROUND-COLOR: #b30a79
+}
+TD.def {
+	FONT-SIZE: 12px; FONT-STYLE: italic
+}
+</style><p><strong>Регулярные выражения</strong></p>
+<table style="HEIGHT: 186px; WIDTH: 296px"><tbody><tr class="head"><td colspan="2"><b>Якоря</b></td></tr><tr><td style="width: 60px;">^</td>
+<td>Начало строки <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>\A</td>
+<td>Начало текста <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>$ </td>
+<td>Конец строки <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>\Z </td>
+<td>Конец текста <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>\b </td>
+<td>Граница слова <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>\B </td>
+<td>Не граница слова <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>\&lt; </td>
+<td>Начало слова</td></tr><tr class="chet"><td>\&gt; </td>
+<td>Конец слова</td></tr></tbody></table><table style="HEIGHT: 70px; WIDTH: 236px"><tbody><tr><td class="head"><b>Примечание</b></td>
+<td class="def">Отмеченное <font color="#c30543" size="1" face="Arial">+</font> работает в большинстве языков программирования.</td></tr></tbody></table><table style="WIDTH: 296px"><tbody><tr class="head"><td colspan="2"><b>Символьные классы</b></td></tr><tr><td style="width: 60px;">\c</td>
+<td>Управляющий символ</td></tr><tr class="chet"><td>\s</td>
+<td>Пробел</td></tr><tr><td>\S</td>
+<td>Не пробел</td></tr><tr class="chet"><td>\d</td>
+<td>Цифра</td></tr><tr><td>\D</td>
+<td>Не цифра</td></tr><tr class="chet"><td>\w</td>
+<td>Слово</td></tr><tr><td>\W</td>
+<td>Не слово</td></tr><tr class="chet"><td>\xhh</td>
+<td>Шестнадцатиричный символ hh</td></tr><tr><td>\Oxxx</td>
+<td>Восьмиричный символ xxx</td></tr></tbody></table><table style="WIDTH: 296px"><tbody><tr class="head"><td colspan="2"><b>Кванторы</b></td></tr><tr><td style="width: 60px;">*</td>
+<td>0 или больше <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>*?</td>
+<td>0 или больше, нежадный <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>+</td>
+<td>1 или больше <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>+?</td>
+<td>1 или больше, нежадный <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>?</td>
+<td>0 или 1 <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>{3}</td>
+<td>Ровно 3 <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>{3,}</td>
+<td>3 или больше <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>{3,5}</td>
+<td>3, 4 или 5 <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>{3,5}?</td>
+<td>3, 4 или 5, нежадный</td></tr></tbody></table><table style="WIDTH: 296px"><tbody><tr class="head"><td colspan="2"><b>Специальные символы</b></td></tr><tr><td>\</td>
+<td>Экранирующий символ <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td style="width: 60px;">\n</td>
+<td>Новая строка <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>\r</td>
+<td>Возврат каретки <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>\t</td>
+<td>Табуляция <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>\v</td>
+<td>Вертикальная табуляция <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>\f</td>
+<td>Новая страница <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>[\b]</td>
+<td>Возврат на один символ</td></tr><tr class="chet"><td>\N{name}</td>
+<td>Именованый символ</td></tr></tbody></table><table style="WIDTH: 296px"><tbody><tr class="head"><td colspan="2"><b>Диапазоны</b></td></tr><tr><td style="width: 60px;">.</td>
+<td>Любой символ, кроме переноса строки (\n) <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>(a|b)</td>
+<td>a или b <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>(...)</td>
+<td>Группа <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>(?:...)</td>
+<td>Пассивная группа <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>[abc]</td>
+<td>Диапазон (a или b или c) <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>[^abc]</td>
+<td>Не a, не b и не c <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>[a-q]</td>
+<td>Буква между a и q <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>[A-Q]</td>
+<td>Буква в верхнем регистре между A и Q <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>[0-7]</td>
+<td>Цифра между 0 и 7 <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>\n</td>
+<td>n-ая группа/подшаблон</td></tr></tbody></table><table style="HEIGHT: 50px; WIDTH: 236px"><tbody><tr><td class="head"><b>Примечание</b></td>
+<td class="def">Диапазоны включают граничные значения.</td></tr></tbody></table><table style="WIDTH: 296px"><tbody><tr class="head"><td colspan="2"><b>Утверждения</b></td></tr><tr><td>?=</td>
+<td>Вперед смотрящее <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>?!</td>
+<td>Отрицательное вперед смотрящее <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>?&lt;=</td>
+<td>Назад смотрящее <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr class="chet"><td>?!= или ?</td>
+<td>Отрицательное назад смотрящее <font color="#c30543" size="1" face="Arial">+</font></td></tr><tr><td>?&gt;</td>
+<td>Однократное подвыражение</td></tr><tr class="chet"><td>?()</td>
+<td>Условие [если, то]</td></tr><tr><td>?()|</td>
+<td>Условие [если, то, а иначе]</td></tr><tr class="chet"><td>?#</td>
+<td>Комментарий</td></tr></tbody></table><table style="WIDTH: 296px"><tbody><tr class="head"><td colspan="3"><b>Мета-символы (экранируются)</b></td></tr><tr><td>^</td>
+<td>[</td>
+<td>.</td></tr><tr class="chet"><td>$</td>
+<td>{</td>
+<td>*</td></tr><tr><td>(</td>
+<td>\</td>
+<td>+</td></tr><tr class="chet"><td>)</td>
+<td>|</td>
+<td>?</td></tr><tr><td>&lt;</td>
+<td>&gt;</td>
+<td></td></tr></tbody></table><table><tbody><tr class="head"><td colspan="2"><b>Образцы шаблонов</b></td></tr><tr><td style="WIDTH: 336px">([A-Za-z0-9-]+)</td>
+<td>Буквы, числа и знаки переноса</td></tr><tr class="chet"><td>(\d{1,2}\/\d{1,2}\/\d{4})</td>
+<td>Дата (напр., 21/3/2006)</td></tr><tr><td>((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,15})</td>
+<td>От 8 до 15 символов с минимум одной цифрой, одной заглавной и одной строчной буквой (полезно для паролей).</td></tr><tr class="chet"><td>(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})</td>
+<td>Адрес email</td></tr></tbody></table></body></html>

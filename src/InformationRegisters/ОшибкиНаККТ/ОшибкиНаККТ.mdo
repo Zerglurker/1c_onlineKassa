@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cada02a2-fff7-420b-8b9a-5dbe3f4f2e12">
+  <producedTypes>
+    <selectionType typeId="db94e5cc-e6e8-4a27-9192-e30a775f26b2" valueTypeId="86ca2fc0-7ad4-45e2-a530-2ce10b92a297"/>
+    <listType typeId="d08dc11a-a60f-4ce2-ac94-735b1f7d0d58" valueTypeId="6b39bf7f-a27f-4cad-b0bc-bbd88f7245aa"/>
+    <managerType typeId="b26bbc2a-fd08-4e9f-bff9-a4908ae79fd9" valueTypeId="536f1718-cbed-4a5a-8711-7a52ed168eee"/>
+    <recordSetType typeId="854db944-947e-4001-ad98-96140911a199" valueTypeId="d6832193-0fce-4b22-8660-9ad34f3890f5"/>
+    <recordKeyType typeId="6b642398-ba0b-4be2-9eb0-eac8c203c974" valueTypeId="8201fc94-4773-4973-9358-f9c9343aad52"/>
+    <recordType typeId="0562ee5e-d336-47aa-b2f8-aeb17c1dac7a" valueTypeId="52a8699c-8bb1-47b2-889a-8263dcea60a6"/>
+    <recordManagerType typeId="c8a4df71-d09e-4a23-83f6-1c7364d5987f" valueTypeId="b0a6e747-d6a1-44cf-bba3-1a9e3636a1af"/>
+  </producedTypes>
+  <name>ОшибкиНаККТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки на ККТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="187933a3-ff9f-4ec1-87c3-4818c5c7d9f1">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусПечатиЧека</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9cd918ff-23fc-4b36-ad64-13c136709fc0">
+    <name>ОшибкиНаККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки на ККТ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="80118144-1c89-4256-b0d3-7c5895fb44a3">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="0a39c737-3f35-4639-9178-053f8edc79bf">
+    <name>IDчека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id Чека</value>
+    </synonym>
+    <comment>если неудалось записать в документ</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c07b4185-0a55-4039-b4fc-6505cebad444">
+    <name>Чек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КассовыйЧек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

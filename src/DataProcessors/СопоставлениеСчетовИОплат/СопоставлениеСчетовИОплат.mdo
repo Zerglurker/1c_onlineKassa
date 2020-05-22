@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7867c648-09cd-41a0-b3d9-874b0d974382">
+  <producedTypes>
+    <objectType typeId="cecba414-6059-464e-b3f9-903ddda1fa31" valueTypeId="98870790-e531-4223-977c-fb238cc1ee3c"/>
+    <managerType typeId="ca0b48b9-732a-4255-9a3c-3cf05064b61f" valueTypeId="f47a8b74-9e59-4699-a985-e2a9304b0440"/>
+  </producedTypes>
+  <name>СопоставлениеСчетовИОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление счетов и оплат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СопоставлениеСчетовИОплат.Form.ФормаСопоставления</defaultForm>
+  <attributes uuid="dcb2fb1a-10ca-4aa3-9532-96c44600251a">
+    <name>ПериодОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отбора</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b76c8c79-be1f-4da6-a59c-802374c0a535">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="703dc8bb-4ed1-4af5-85ff-c3c0290ba7ef">
+    <name>КонтрагентСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент строкой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="22b3a18c-3513-436b-b3b3-999316eaa518">
+    <producedTypes>
+      <objectType typeId="e02a000b-3c71-4783-aded-1650e2826eb8" valueTypeId="e9a90953-7405-4218-9ac0-8cfc2c82f3a7"/>
+      <rowType typeId="90a53f97-9bde-4fd1-92bd-0515652604f8" valueTypeId="27482562-64d3-41ac-b189-be48ae6f5052"/>
+    </producedTypes>
+    <name>Счета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счета</value>
+    </synonym>
+    <attributes uuid="32a389ec-1a6a-4004-95e0-e35c4d97d40f">
+      <name>Дело</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дело</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Договор</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="03e57022-f7c4-44f1-8cfd-13df972700f7">
+      <name>НеоплаченнаяСумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Неоплаченная сумма</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3c2c4de1-d80b-4d8b-b22c-52f291128714">
+    <producedTypes>
+      <objectType typeId="f1200441-9350-4a1f-886f-44e36f3ced29" valueTypeId="53b39eef-58bd-4e5d-9c0e-92a6f1a05fba"/>
+      <rowType typeId="611108f4-d433-47c2-ac0f-d7a127875241" valueTypeId="3c05f32c-5c72-471b-92b1-d8f2d971b90c"/>
+    </producedTypes>
+    <name>Платежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежи</value>
+    </synonym>
+    <attributes uuid="64f9f37c-edba-463f-837d-cc488508ef96">
+      <name>ПлатежноеПоручение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Платежное поручение</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПлатежноеПоручение</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="635fa35b-4b16-4fef-a9ed-c369065271f5">
+    <producedTypes>
+      <objectType typeId="24379506-37ac-4607-b7c2-81a36d923cb8" valueTypeId="08628fd1-6fe9-4d43-93a3-4bd056c19fa5"/>
+      <rowType typeId="9946037f-5522-42a0-8b17-338bbf62ebb9" valueTypeId="0ff3a729-a019-43f1-b0c0-66f939210845"/>
+    </producedTypes>
+    <name>СопоставленныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставленные документы</value>
+    </synonym>
+    <attributes uuid="bdef9a06-e10e-4ea6-8009-917d1f818a71">
+      <name>Дело</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дело</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Договор</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f4fe9fbb-445f-42e2-bb91-72c2b1abaf32">
+      <name>ПлатежноеПоручение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Платежное поручение</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПлатежноеПоручение</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cbb47d24-c209-447e-8663-949016bafe8c">
+      <name>overPay</name>
+      <synonym>
+        <key>ru</key>
+        <value>Over pay</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="39e56ea1-8e10-4e98-a1a0-81516f103c5d">
+      <name>Чек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чек</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.КассовыйЧек</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="de170890-9c6f-4ce2-9ace-2f34eca1eb37">
+    <name>ОтборПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор ПП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f50babea-29fc-4687-ad41-f9cc2373f48a">
+    <name>ОтборДел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор дел</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14772b21-c2af-4d54-bdf8-4833a8f9001a">
+    <name>ФормаСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сопоставления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

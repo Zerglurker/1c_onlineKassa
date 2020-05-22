@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8361ad8-5505-49bc-add5-b09d8fd6cb6c">
+  <name>ПамяткаRegExp_table</name>
+  <synonym>
+    <key>ru</key>
+    <value>Памятка reg expression</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d1b7daf-9a16-4844-a95d-86732d0c48c2">
+  <producedTypes>
+    <objectType typeId="7535fd02-96f8-4c62-a80f-f6eba53d08d7" valueTypeId="40c327f9-73bf-44f6-a105-35215d558d2d"/>
+    <refType typeId="66c383ad-3dc6-4047-bc29-e81fc630e3b2" valueTypeId="4b137eaf-5e82-4c16-8492-a5e7d33c45d1"/>
+    <selectionType typeId="6e086e26-891e-4ebf-8f85-9785ca4e9d78" valueTypeId="97420deb-56b5-4d2c-ba6c-b0ea41fbc7fd"/>
+    <listType typeId="d644f024-5752-4364-9754-274f896a822f" valueTypeId="0d84312d-dba9-47f0-9f9b-f60f91104fcc"/>
+    <managerType typeId="314d9be6-a6c1-4dc4-a68e-939de8e2074f" valueTypeId="6973d1ed-09e8-47f8-96cd-3e8ded73cf06"/>
+  </producedTypes>
+  <name>ЮрФиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юр физ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЮрФиз.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>7</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b44a53d2-3d87-41af-bddb-f926948651e0">
+      <name>ФизЛицо</name>
+      <description>FL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="42ce84af-bb2b-486f-a176-e17f2ca947a8">
+      <name>ЮрЛицо</name>
+      <description>UL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЮрФиз.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЮрФиз.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="5971284e-8bb5-42b6-846e-4873abaf87d7">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8c229899-9ffb-46dc-ac54-1a5c8632c6de">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4bcb8326-7c16-42fc-acae-08539a217550">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

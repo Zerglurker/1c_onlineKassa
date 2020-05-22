@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb52c947-ada8-478c-882e-1ead3d4adfe0">
+  <producedTypes>
+    <objectType typeId="026b998d-443a-40de-a1f7-fbb78fbfa376" valueTypeId="6ec2c286-a197-4b4b-b741-9078ec304d93"/>
+    <managerType typeId="90d16c2d-ccd6-49b2-a87c-cd5ab9f69484" valueTypeId="0d530c73-91b0-404d-a3dc-8080ff4976fe"/>
+  </producedTypes>
+  <name>ЗагрузкаРеестраППСбербанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка платежных поручений (реестра  Сбербанка)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаРеестраППСбербанка.Form.ФормаЗагрузки</defaultForm>
+  <attributes uuid="88e82b5d-2334-46c3-8f92-579c3fe70712">
+    <name>URLTempstorage</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL tempstorage</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="06935604-d616-4d09-8fbd-bc016427be5a">
+    <producedTypes>
+      <objectType typeId="4a854f36-360f-47c0-bea8-2c641a1548e0" valueTypeId="adb72238-a245-47d2-8dcc-aa139b09c94a"/>
+      <rowType typeId="481c5d2b-1456-49b1-bd0c-2558b36fb29f" valueTypeId="8eb4a46e-1e6b-4bcb-86a6-4e3b00a26568"/>
+    </producedTypes>
+    <name>files</name>
+    <synonym>
+      <key>ru</key>
+      <value>Files</value>
+    </synonym>
+    <attributes uuid="90e41338-deee-4467-bda1-b6d2f71145d2">
+      <name>URLtempstorage</name>
+      <synonym>
+        <key>ru</key>
+        <value>URL Tempstorage</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ed18b84c-4b37-4f6c-94bf-8d98d7b2b65d">
+      <name>IsZip</name>
+      <synonym>
+        <key>ru</key>
+        <value>Is zip</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="474fe860-f6bc-4949-b630-33906ce3e0d1">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8bd8a2f8-0032-4049-9683-8847f064aacb">
+    <name>RSber201906</name>
+    <synonym>
+      <key>ru</key>
+      <value>R sber201906</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5adc19a-2751-43d2-a69b-7cae0295b8ab">
+  <producedTypes>
+    <selectionType typeId="51170a66-203c-421f-acbb-597e2bbaca2a" valueTypeId="009d24fc-95a9-45b0-a543-742c525bead6"/>
+    <listType typeId="fb14b439-bdd9-40d4-97d0-2f96d2a6a8c7" valueTypeId="6029a98f-f625-4480-b678-90928ba7ec8b"/>
+    <managerType typeId="f05e7175-1f30-4ea9-a22b-7f92e3ed14eb" valueTypeId="fc450620-0efe-4d6e-9638-223dd08a9edd"/>
+    <recordSetType typeId="e974a282-4705-4069-8e50-a967ea149552" valueTypeId="e6f05d42-06dc-46f9-a65e-4d1a5b5a24f2"/>
+    <recordKeyType typeId="3328a5ad-a17a-4314-87e4-5a554befa743" valueTypeId="8c876efa-4a7b-45d2-a7cc-e19c5b8a45c7"/>
+    <recordType typeId="6dcd5b71-6123-46b8-ae6f-4165526ddc46" valueTypeId="f9db30e2-77eb-4ffb-8802-a1f5f5127114"/>
+    <recordManagerType typeId="940a4c6f-8720-4a4e-ba9b-cf55905c823d" valueTypeId="532c9a8f-09a3-4381-a86e-b66c2da884c4"/>
+  </producedTypes>
+  <name>ЧекиВОбработке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чеки в обработке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="075221b0-d7b5-4a13-87c1-8af8ffca7546">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="303c0f78-af67-4950-90b6-cbd083132a42">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bc2fef3d-9251-480c-bb3e-84b0accd9418">
+    <name>Чек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КассовыйЧек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

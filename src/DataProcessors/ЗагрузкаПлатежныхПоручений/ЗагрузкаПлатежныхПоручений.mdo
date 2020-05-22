@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e1598f5-4fc3-40c3-b48c-20beadc767be">
+  <producedTypes>
+    <objectType typeId="1038f7a1-e91c-4dd6-89f8-b02621e26210" valueTypeId="f1a2875c-7a05-4a1b-aed1-d593846a5d2a"/>
+    <managerType typeId="28ffb8b0-6c0d-401e-b6e3-39fdd07b13f4" valueTypeId="981b2338-ff58-4b18-a260-7dc29fb2eb60"/>
+  </producedTypes>
+  <name>ЗагрузкаПлатежныхПоручений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка платежных поручений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПлатежныхПоручений.Form.ФормаОсновная</defaultForm>
+  <attributes uuid="78c8f52d-d774-482b-a8ef-8f34ab736304">
+    <name>URLTempstorage</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL tempstorage</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="041430b3-b390-4f47-9fe9-1541553fcfa0">
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a8f07d4-e9d7-4c04-9100-3c1d83e09c5c">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="eb96e35e-f272-42e0-9d5e-a4ad8a606c3d">
+    <name>ФормаОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="21e2a99c-0d67-4ac6-aad7-9b6b0c203e05">
+    <name>TXPP170701</name>
+    <synonym>
+      <key>ru</key>
+      <value>TXPP170701</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

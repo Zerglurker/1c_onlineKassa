@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23b9743e-1740-465d-9eaf-09225ad8c2c7">
+  <producedTypes>
+    <refType typeId="cf42ea00-44cb-4275-9239-f210f4267160" valueTypeId="219fda39-3aaf-4266-9316-ac6eb337b3e9"/>
+    <listType typeId="6af704bf-78e5-4544-9aee-bc74e7a30e1e" valueTypeId="c8b72e8e-56c4-42da-a7ab-bd23ab1e2e5b"/>
+    <managerType typeId="256509ef-5400-45c5-a241-f84894569695" valueTypeId="15a48763-0445-4780-97eb-d168bf86b652"/>
+  </producedTypes>
+  <name>СтатусПечатиЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус печати чека</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e7ed086-9725-42b9-82d6-c3962509eddf">
+    <name>fail</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23efc0fb-5463-4e13-95d1-7ba358d01491">
+    <name>accept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напечатан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e15eabcb-75da-466e-9a20-7f6cd7bb407b">
+    <name>processing</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0ac2e5a-b9a4-4d90-88dd-c503c0238524">
+    <name>error</name>
+    <synonym>
+      <key>ru</key>
+      <value>Error</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

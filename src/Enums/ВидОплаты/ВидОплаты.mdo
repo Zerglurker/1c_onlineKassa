@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2286d176-7108-4a30-a796-34aa282ecec5">
+  <producedTypes>
+    <refType typeId="128134d5-b8da-4638-a3fe-a167477a86f2" valueTypeId="8c4f840e-3901-4c98-ae74-58668a0f666d"/>
+    <listType typeId="03e71ee8-8592-44df-886f-e516b1d39622" valueTypeId="29a71ef0-4ee2-4514-a2b2-ad06302564e2"/>
+    <managerType typeId="9db84633-7df0-4060-a64e-5b8ac2941819" valueTypeId="d6842090-c57d-4d92-97c9-fe9f10369af3"/>
+  </producedTypes>
+  <name>ВидОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f94c17d0-83d5-4275-84cd-d0f21393be0c">
+    <name>ЭлектронныйПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронный платеж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3c5126c-33f0-4871-826f-fcd40a5a83b2">
+    <name>Аванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d799d5b-06d5-47de-9630-866cd6d0eda3">
+    <name>Кредит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредит</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

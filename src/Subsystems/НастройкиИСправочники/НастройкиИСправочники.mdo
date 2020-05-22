@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48d7c749-4ef9-412c-abed-fb3873ba227a">
+  <name>НастройкиИСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНастройкиИСправочники</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.СтруктураФилиалов</content>
+  <subsystems>Классификаторы</subsystems>
+  <subsystems>Администрирование</subsystems>
+</mdclass:Subsystem>

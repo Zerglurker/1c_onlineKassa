@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac95fb53-3c79-45be-be1e-c3822b9474a3">
+  <producedTypes>
+    <objectType typeId="6fd59750-11da-4f13-b6d9-8e8b34abd6ac" valueTypeId="368fabec-ea82-4956-a4a7-3a481828f950"/>
+    <managerType typeId="1ce88928-6f73-4340-9a17-391cba4285d2" valueTypeId="ab4dd363-0341-4f70-b4ae-49afb80c8fde"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияCasbox</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования casbox</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="fb851801-7674-49ca-ba3a-b24eb9899a60">
+    <name>НастройкиОбработокЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обработок загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6abc9cf3-80e1-4b42-84f3-309eea2c4446">
+    <name>ПроверкаRegExp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка reg exp</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ca0e7ca-21d4-4487-8dee-9a5956a2e5ee">
+    <name>НастройкиПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки программы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b03d8ed8-f9f9-4eaf-8aa9-ac78d3a6c935">
+    <name>НастройкиОбработокЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обработок загрузки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменение настроек обработок загрузки</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="e7ae7661-fa6f-45ed-960e-b00c607bf1d4">
+    <name>НастройкиПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки программы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменение настроек учета</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

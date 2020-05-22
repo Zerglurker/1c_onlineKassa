@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b407e928-2b2c-4873-9b24-300e634a0470">
+  <producedTypes>
+    <managerType typeId="7d730bbf-deb0-4310-b83a-348ec3bb42b8" valueTypeId="1f2cf935-d063-4356-adb2-8d48fd0f1686"/>
+    <valueManagerType typeId="0facc1eb-7006-44af-8fb7-5079b4777609" valueTypeId="3ba0ef52-a368-4e80-b52b-e8e08f9cbe6a"/>
+    <valueKeyType typeId="cd39e905-5b6f-51dd-bdfa-656fce171d4e" valueTypeId="b4691e85-8cfb-5c87-bac7-bdaeb1b8ddb2"/>
+  </producedTypes>
+  <name>НастройкиИмпортаПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки импорта ПП</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="359623c1-af9b-462a-a5c8-e12665dd720d">
+  <producedTypes>
+    <managerType typeId="0dc5a1e5-2844-44d9-8608-7c0f0d5e1ba9" valueTypeId="8de2df7b-da3a-43e2-b82b-1dc191ba1c2f"/>
+    <valueManagerType typeId="104aebc7-45d1-4f1d-b682-8170408cb755" valueTypeId="f9bb6060-ef72-4337-a2e6-ebcf6648d456"/>
+    <valueKeyType typeId="abc8b713-9a90-51d6-9a59-c28b0c92ced3" valueTypeId="08cf1dc1-0a27-51e1-9512-f70eaa0d10cd"/>
+  </producedTypes>
+  <name>Население</name>
+  <synonym>
+    <key>ru</key>
+    <value>Население</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

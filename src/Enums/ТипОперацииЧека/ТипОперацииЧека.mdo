@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f586000a-1a2f-4b6a-89a6-46cf2a77696b">
+  <producedTypes>
+    <refType typeId="5215b7a5-d495-4fc7-a528-39d17c83965b" valueTypeId="562f4974-67b5-4b69-8951-e15718da9561"/>
+    <listType typeId="5611f364-874f-4723-b837-91df1ce3507d" valueTypeId="ea8e04d6-2676-4ed1-a768-bf0b6ac6f4a4"/>
+    <managerType typeId="a571ea07-74e5-4b92-b9f4-0a0b932d09a0" valueTypeId="be0b90ba-1883-4b57-b59e-d0be8d0c83a8"/>
+  </producedTypes>
+  <name>ТипОперацииЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип операции чека</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da3a7045-4418-4d64-9d8b-6e7575d71a1c">
+    <name>sell</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход</value>
+    </synonym>
+    <comment>Sell</comment>
+  </enumValues>
+  <enumValues uuid="51c3cc18-5463-4c09-98a7-505fb26eaf58">
+    <name>sell_refund</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат прихода</value>
+    </synonym>
+    <comment>Sell refund</comment>
+  </enumValues>
+  <enumValues uuid="3e3f27e7-b403-4c24-b21d-0878c109655e">
+    <name>sell_correction</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коррекция прихода</value>
+    </synonym>
+    <comment>Sell correction</comment>
+  </enumValues>
+  <enumValues uuid="971b1102-361c-456c-9bf7-bbb22ca62d72">
+    <name>buy</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+    <comment>Buy</comment>
+  </enumValues>
+  <enumValues uuid="c42c974d-bccb-485e-bb14-d3910662e024">
+    <name>buy_refund</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат расхода</value>
+    </synonym>
+    <comment>Buy refund</comment>
+  </enumValues>
+  <enumValues uuid="0fe7d889-a89b-460a-a80b-5bf236c67ee3">
+    <name>buy_correction</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коррекция расхода</value>
+    </synonym>
+    <comment>Buy correction</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.Контрагенты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.Договор.StandardCommand.OpenList</commands>
+      <commands>Document.ПлатежноеПоручение.StandardCommand.OpenList</commands>
+      <commands>Document.КассовыйЧек.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ЗагрузкаДел.StandardCommand.Open</commands>
+      <commands>DataProcessor.ЗагрузкаПлатежныхПоручений.StandardCommand.Open</commands>
+      <commands>DataProcessor.ЗагрузкаРеестраППСбербанка.StandardCommand.Open</commands>
+      <commands>DataProcessor.СопоставлениеСчетовИОплат.StandardCommand.Open</commands>
+      <commands>DataProcessor.ПечатьЧековOnline.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

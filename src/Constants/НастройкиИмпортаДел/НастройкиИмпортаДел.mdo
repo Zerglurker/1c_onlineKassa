@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd0b4c10-99e6-480d-b480-ab19d76729f2">
+  <producedTypes>
+    <managerType typeId="dc6f8558-fd6a-4ab3-99d0-fcd7ec544a0e" valueTypeId="41bc9108-1069-48f3-b2c9-ff21bcd46f35"/>
+    <valueManagerType typeId="260bc521-6656-4076-a220-3543e641c5ba" valueTypeId="31d72daf-de44-4b8b-9901-2e56d3a92998"/>
+    <valueKeyType typeId="283b7d1a-50d3-55fa-ad7f-5b2a5846adb2" valueTypeId="60873faa-338b-5766-96ff-4eca938ad288"/>
+  </producedTypes>
+  <name>НастройкиИмпортаДел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки импорта Дел/Контрагентов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

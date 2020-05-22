@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80767e9a-7df2-483f-9879-b76dda83f476">
+  <producedTypes>
+    <objectType typeId="108ad0a5-9557-4215-b75b-0ddf189d1cb1" valueTypeId="c1513116-c6f8-4a04-bdf0-89e2f305e59a"/>
+    <managerType typeId="2514b5bf-9246-4b7b-9956-6d9a2281c719" valueTypeId="d1624381-0013-4e2f-a890-41842ccd7167"/>
+  </producedTypes>
+  <name>КонтрольПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КонтрольПлатежей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="222ad6eb-0689-4001-9c9f-cc5679add8e3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44df25d2-3e58-4745-9e10-5d15fced37bf">
+  <producedTypes>
+    <selectionType typeId="51a90861-68f5-4834-9292-cc265710c07c" valueTypeId="b8a74dea-130a-4887-b868-3062cc6835b5"/>
+    <listType typeId="0bf07961-24e5-4ed2-acff-bf8058fcb7ab" valueTypeId="4d48a65a-758e-4e0f-a00b-a0be27384e5a"/>
+    <managerType typeId="92f823b3-60a8-47ff-8002-d02e3a5d671d" valueTypeId="2cee179f-b781-452c-a8b2-210d19a8bd39"/>
+    <recordSetType typeId="e978f355-b069-40e8-86af-afae793e497e" valueTypeId="af8e1909-38d8-442d-9b16-26775ea80572"/>
+    <recordKeyType typeId="0c357f7b-f34a-4cab-8b82-f0ef01961a48" valueTypeId="df867272-88f0-4116-87cc-3e08039bd555"/>
+    <recordType typeId="31d59039-ad7d-461d-8a29-5a334c44ee12" valueTypeId="d5fdb1c2-c2f2-4031-b03b-e99e06bdd87d"/>
+    <recordManagerType typeId="ee7d1706-3041-48c2-b13c-9a0d5958df67" valueTypeId="e0e73413-73b6-4e71-99c3-a361e2fa950e"/>
+  </producedTypes>
+  <name>НомераКвитанций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера квитанций</value>
+  </synonym>
+  <comment>для поиска дел по № квитанции</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7fc61ffc-bf4e-40ce-9729-ee093ef8bd4d">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Договор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="0be80e75-02cc-4904-b5a4-531c664ef04b">
+    <name>НомерКвитанции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер квитанции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

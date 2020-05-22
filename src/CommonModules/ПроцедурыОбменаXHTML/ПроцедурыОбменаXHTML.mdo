@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7473b0f-2507-4a28-ab36-b6f3e99bc9da">
+  <name>ПроцедурыОбменаXHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процедуры обмена XHTML</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
